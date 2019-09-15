@@ -1,4 +1,4 @@
-#Project - Content Watched
+# Project - Content Watched
 
 This Application is build to compute how long any particular video content was watched by a particular user.
 It's the Spark streaming application developed in Java and it consumes the messages from kafka at real time.
