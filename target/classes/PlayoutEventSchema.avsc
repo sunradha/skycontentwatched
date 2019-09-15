@@ -1,0 +1,10 @@
+{ "type": "record",
+  "name": "com.sky.playevents.producers.PlayoutEventRecord",
+  "fields": [
+            {"name": "eventTimestamp", "type": "long"},
+            {"name": "sessionId", "type": "string"},
+            {"name": "event", "type": "string"},
+            {"name": "userId", "type": ["string", "null"], "default": "None"},
+            {"name": "contentId", "type": ["string", "null"], "default": "None"}
+        ]
+}

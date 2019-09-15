@@ -1,0 +1,9 @@
+{ "type": "record",
+  "name": "com.sky.playevents.producers.ContentWatchedRecord",
+  "fields": [
+            {"name": "startTimestamp", "type": "long"},
+            {"name": "userId", "type": ["string", "null"], "default": "None"},
+            {"name": "contentId", "type": ["string", "null"], "default": "None"},
+            {"name": "timeWatched", "type": "long"}
+        ]
+}
